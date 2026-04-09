@@ -1,8 +1,62 @@
+:root {
+     --color-accent: #87CEEB;
+}
+
+html {
+     accent-color: var(--color-accent);
+}
 
 body {
      /*Set line height to 1.5 times the font size
          and use the OS’s UI font as the website font */
        
-    font: 100%/1.5 system-ui;
+     max-width: 100ch;
+     margin-inline: auto;
+     font: 100%/1.5 system-ui;
+
+     padding-inline: 2ch;
+    
   } 
+
+img {
+     max-width: 400px;
+     width: 100%;
+     height: auto;
+     display: block;
+     margin-top: 1em;
+
+  }
+
+  nav {
+     display: flex;
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
+     border-bottom-color: oklch(80% 3% 200);
+     margin-bottom: 1.0em;
+  }
+
+  nav ul,
+  nav li {
+     display: contents;
+  }
+
+  nav a {
+     flex: 1;
+     text-decoration: none;
+     color: inherit;
+     text-align: center;
+     padding: 0.5em;
+     margin-top: 0.5em;
+  }
+
+  nav a.current {
+     border-bottom: 0.4em solid oklch(80% 3% 200);
+     padding-bottom: 0.1em;
+ }
+
+ nav a:hover {
+     border-bottom: 0.4em solid var(--color-accent);
+     padding-bottom: 0.1em;
+     background-color: oklch(from var(--color-accent) 95% 5% h);
+ }
 
