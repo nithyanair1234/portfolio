@@ -6,6 +6,15 @@ html {
      accent-color: var(--color-accent);
 }
 
+h1, h2, h3, h4, h5, h6 {
+   line-height: 1.1;
+   text-wrap: balance;
+}
+
+h1 {
+   font-size: 300%; /* Or 4rem */
+}
+
 body {
      /*Set line height to 1.5 times the font size
          and use the OS’s UI font as the website font */
@@ -27,6 +36,7 @@ img {
 
   }
 
+/* Navigation bar */
   nav {
      display: flex;
      border-bottom-width: 1px;
@@ -60,6 +70,8 @@ img {
      background-color: oklch(from var(--color-accent) 95% 5% h);
  }
 
+ /* Contact Page CSS Styling */
+
  form {
    display: grid;
    grid-template-columns: auto 1fr;
@@ -79,6 +91,9 @@ button {
    text-align: center;
 }
 
+
+
+/* Projects Page CSS Styling */
 .projects {
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
@@ -96,11 +111,85 @@ button {
    margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-   line-height: 1.1;
-   text-wrap: balance;
+
+
+/* Resume Page CSS Styling */
+
+section > h2:first-of-type,
+body > h2:first-of-type {
+   margin-bottom: 0;
 }
 
-h1 {
-   font-size: 300%; /* Or 4rem */
+a[href*="linkedin"] {
+   display: inline-block;
+   background: var(--color-accent);
+   color: black;
+   padding: 0.2em 0.6em;
+   text-decoration: none;
+   font-size: 0.9em;
+   font-weight: bold;
+   margin-top: 1em;
+   margin-bottom: 1em;
+
+}
+
+section {
+   margin-bottom: 2em;
+   border-top: 1px solid oklch(90% 0% 0); 
+   padding-top: 1em;
+   line-height: 1.4;
+}
+
+section h2 {
+   color: var(--color-accent);
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+}
+
+section article {
+   margin-bottom: 2.0em;
+}
+
+section article:last-of-type {
+   margin-bottom: 0;
+}
+
+article ul,
+section ul {
+   margin-top: 0.25em;
+   list-style-type: square;
+}
+
+article li::marker,
+section li::marker {
+   color: #285263;
+   font-size: 1.2em;
+}
+
+article h3 {
+   margin-bottom: 0.1em; /* Tighter connection to the content below */
+}
+
+article p, 
+article time {
+   margin-top: 0.25em;
+   margin-bottom: 0em; 
+}
+
+article i {
+   color: #666;
+}
+
+.education p{
+   margin-top: 0.25em;
+   margin-bottom: 0.25em;
+}
+
+.education i{
+   margin-top: 0em;
+   color: #666;
+}
+
+.education h3 {
+   margin-bottom: 0.25em;
 }
