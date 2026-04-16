@@ -16,8 +16,8 @@ let pages = [
   // 2. Detect environment (Local vs GitHub Pages)
   // Replace "portfolio" with your actual repo name!
   const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
-    ? "/" 
-    : "/portfolio/"; 
+    ? "/"                  // Local server
+    : "/website/";         // GitHub Pages repo name
   
   // 3. Create the Nav container
   let nav = document.createElement('nav');
