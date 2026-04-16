@@ -6,7 +6,7 @@ function $$(selector, context = document) {
 
 
 let pages = [
-    { url: '', title: 'Home' },
+    { url: '.', title: 'Home' },
     { url: 'projects/', title: 'Projects' },
     { url: 'resume/', title: 'Resume' },
     { url: 'contact/', title: 'Contact' },
@@ -16,8 +16,8 @@ let pages = [
   // 2. Detect environment (Local vs GitHub Pages)
   // Replace "portfolio" with your actual repo name!
   const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
-    ? "/"                  // Local server
-    : "/website/";         // GitHub Pages repo name
+    ? "/" 
+    : "/portfolio/"; // Must match your GitHub repo name exactly!
   
   // 3. Create the Nav container
   let nav = document.createElement('nav');
