@@ -2,7 +2,7 @@
     {
         "title": "MetaENCODE",
         "year": 2026,
-        "image": "../images/dna.jpeg",
+        "image": "/portfolio/images/yumsum.png",
         "description": "Machine learning-powered web application that helps researchers discover related ENCODE datasets by transforming experiment metadata into embeddings and computing similarity using cosine similarity and nearest neighbor search."
     },
     {
