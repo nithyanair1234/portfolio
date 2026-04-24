@@ -211,3 +211,31 @@ article i {
    font: inherit;
    margin-left: 0.5em;
 }
+
+
+/* Home Page Github Stats */
+/* Style the Description List as a mini-dashboard */
+#profile-stats dl {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   text-align: center;
+   background: color-mix(in oklch, var(--color-accent), transparent 90%);
+   padding: 1.5rem;
+   border-radius: 8px;
+   gap: 1rem;
+}
+
+#profile-stats dt {
+   grid-row: 1; /* Labels on top */
+   text-transform: uppercase;
+   font-size: 0.75rem;
+   letter-spacing: 0.05em;
+   color: #666;
+}
+
+#profile-stats dd {
+   grid-row: 2; /* Values on bottom */
+   margin: 0;
+   font-size: 2rem;
+   font-weight: bold;
+}
