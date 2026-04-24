@@ -101,9 +101,9 @@ let pages = [
   
       article.innerHTML = `
           <${headingLevel}>${project.title}</${headingLevel}>
+          <p class="project-year"><em>${project.year}</em></p>
           <img src="${project.image}" alt="${project.title}">
           <p>${project.description}</p>
-          <p class="project-year"><em>c. ${project.year}</em></p>
       `;
   
       containerElement.appendChild(article);

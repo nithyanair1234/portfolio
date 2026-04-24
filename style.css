@@ -116,6 +116,15 @@ button {
    margin: 0;
 }
 
+/* Specific styling for project photos */
+.projects article img {
+   width: 100%;
+   height: 200px; /* Set a fixed height that looks good to you */
+   object-fit: cover; /* This is the secret sauce for alignment */
+   display: block;
+   margin-top: 1em;
+   aspect-ratio: 16 / 9; /* Optional: maintains a consistent ratio */
+}
 
 
 /* Resume Page CSS Styling */
