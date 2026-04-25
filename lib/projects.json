@@ -2,19 +2,19 @@
     {
         "title": "MetaENCODE",
         "year": 2026,
-        "image": "/portfolio/images/yumsum.png",
+        "image": "/images/yumsum.png",
         "description": "Machine learning-powered web application that helps researchers discover related ENCODE datasets by transforming experiment metadata into embeddings and computing similarity using cosine similarity and nearest neighbor search."
     },
     {
         "title": "Cuisine Classifier",
         "year": 2025,
-        "image": "../images/cuisine.jpeg",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Machine learning classifier to distinguish American vs. European recipes using nutritional data and ingredient text, achieving ~79% accuracy with a Random Forest model. "
     },
     {
         "title": "YumSum",
         "year": 2024,
-        "image": "../images/yumsum.png",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Streamlit webapp that recommends restaurants based on user input (cost, cuisine, location, and number of results). Summarizes and combines yelp reviews into one large overview of a particular restaurant."
     },
     {
