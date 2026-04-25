@@ -2,25 +2,25 @@
     {
         "title": "MetaENCODE",
         "year": 2026,
-        "image": "/images/dna.jpeg",
+        "image": "https://nithyanair1234.github.io/portfolio/images/dna.jpeg",
         "description": "Machine learning-powered web application that helps researchers discover related ENCODE datasets by transforming experiment metadata into embeddings and computing similarity using cosine similarity and nearest neighbor search."
     },
     {
         "title": "Cuisine Classifier",
         "year": 2025,
-        "image": "/images/cuisine.jpeg",
+        "image": "https://nithyanair1234.github.io/portfolio/images/cuisine.jpeg",
         "description": "Machine learning classifier to distinguish American vs. European recipes using nutritional data and ingredient text, achieving ~79% accuracy with a Random Forest model. "
     },
     {
         "title": "YumSum",
         "year": 2024,
-        "image": "/images/yumsum.png",
+        "image": "https://nithyanair1234.github.io/portfolio/images/yumsum.png",
         "description": "Streamlit webapp that recommends restaurants based on user input (cost, cuisine, location, and number of results). Summarizes and combines yelp reviews into one large overview of a particular restaurant."
     },
     {
         "title": "Learn.Fight.Protect.",
         "year": 2021,
-        "image": "/images/gun.jpeg",
+        "image": "https://nithyanair1234.github.io/portfolio/images/gun.jpeg",
         "description": "Website that educates about gun safety in the United States. Used webscraping to power a fact generator button."
     },
     {
