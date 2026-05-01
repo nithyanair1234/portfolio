@@ -126,6 +126,55 @@ button {
    aspect-ratio: 16 / 9; /* Optional: maintains a consistent ratio */
 }
 
+/* The new shared container */
+.container {
+   display: flex;
+   align-items: center;
+   gap: 3em;
+   margin-top: 2em;
+}
+
+#projects-pie-plot {
+   flex: 0 0 40%;
+   max-width: 20em;
+   height: auto;
+}
+
+/* The container */
+.legend {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+   gap: 1em;
+   flex: 1;        
+   list-style: none;
+   padding: 1em;
+   border: 1px solid #eee;
+   border-radius: 8px;
+ }
+
+/* Individual list items */
+.legend-item {
+   display: flex;
+   align-items: center;
+   gap: 0.5em;
+}
+
+/* The color swatch */
+.swatch {
+   display: inline-block;
+   width: 1em;
+   aspect-ratio: 1 / 1;
+   background-color: var(--color);
+   border-radius: 3px;
+}
+
+/* Item counts */
+.legend-item em {
+   color: #666;
+   font-style: normal;
+   font-variant-numeric: tabular-nums;
+}
+
 
 /* Resume Page CSS Styling */
 
