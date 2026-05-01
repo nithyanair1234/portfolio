@@ -175,6 +175,33 @@ button {
    font-variant-numeric: tabular-nums;
 }
 
+.searchBar {
+   width: 100%;
+   padding: 0.8em;
+   margin-block: 2em;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   font: inherit;
+ }
+
+ &:has(path:hover) {
+   path:not(:hover) {
+      opacity: 0.5;
+   }
+ }
+
+ path {
+   cursor: pointer;
+   transition: opacity 300ms, fill 300ms;
+ }
+
+ .selected {
+   --color: oklch(60% 45% 0) !important;
+
+   &:is(path) {
+      fill:var(--color);
+   }
+ }
 
 /* Resume Page CSS Styling */
 
