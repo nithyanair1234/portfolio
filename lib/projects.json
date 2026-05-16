@@ -24,10 +24,10 @@
         "description": "Website that educates about gun safety in the United States. Used webscraping to power a fact generator button."
     },
     {
-        "title": "Project 1",
-        "year": 2022,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Incidunt, commodi. Nemo dolorum reprehenderit ratione consequatur totam animi, eum repellat quae deleniti laudantium tenetur sed vero officia ipsa. Voluptatem excepturi corporis recusandae debitis reprehenderit magni illum ut optio! Deleniti."
+        "title": "Boston Bikewatching",
+        "year": 2026,
+        "image": "https://nithyanair1234.github.io/portfolio/images/bikewatch.png",
+        "description": "Created a map that shows bike path data in the Boston area. Utilized D3.js and Mapbox."
     },
     {
         "title": "Project 2",
